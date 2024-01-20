@@ -6,3 +6,7 @@
 ### I hope to improve the code by condensing it further, but this'll do for now.
 ## The "analysis.ipynb" is what I used to analyze the resulting "BA_reviews_v2.csv" file from the "real_scrape.ipynb"
 ### I perform sentiment analysis using VADERS and create Word Clouds
+## Contained in "task_2" folder is "machine_learning.ipynb" and "customer_booking.csv"
+### "customer_booking.csv" is data provided by British Airways that is used to train the model in "machine_learning.ipynb"
+### "machine_learning.ipynb" contains starter code from British Airways that I modified and added to. 
+#### I trained a logistic regression binary classification model using scikit-learn after preprocessing the data w/ LabelEncoder. It results in a model w/ 85% accuracy.
